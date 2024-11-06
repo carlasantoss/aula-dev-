@@ -518,3 +518,161 @@ function pessoa(nome, idade, cidade){
     }
     const joao = new pessoa('João', 25, 'São Paulo');
     console.log(joao);
+
+    # aula-dev 05/11/24
+
+    //1
+    let curso = "Logística";
+
+switch(curso) {
+  case "Desenvolvimento de Sistemas":
+    console.log("Curso: Desenvolvimento de Sistemas\nDuração: 2 anos\nCarga horária: 3200 horas");
+    return;
+  case "Logística":
+    console.log("Curso: Logística\nDuração: 1 ano e 6 meses\nCarga horária: 2400 horas");
+    return;
+  case "Administração":
+    console.log("Curso: Administração\nDuração: 2 anos\nCarga horária: 3000 horas");
+    return;
+  default:
+    console.log("Curso não encontrado.");
+
+    
+}
+
+//2
+const mais = '/';
+const soma = 2;
+const soma1 = 4;
+switch(mais){
+    case'+':
+    console.log(`${soma + soma1}`);
+    break;
+    case'-':
+    console.log(`${soma - soma1}`);
+    break;
+    case'*':
+    console.log(`${soma * soma1}`);
+    case'/':
+    break;
+    console.log(`${soma / soma1}`);
+    break;
+}
+
+//3
+const idade = 2;
+switch(true){
+    case idade <= 12:
+    console.log("Infantil");
+    break;
+    case'>=13 && <=17':
+    console.log("Adolescente");
+    break;
+    case'>=18 && <60':
+    console.log("Adulto");
+    break;
+    case'>=65':
+    console.log("Idoso");
+    break;
+}
+
+//4
+
+let nota = 2; 
+
+switch (true) {
+    case (nota = 1 && nota <= 3):
+        console.log("Insuficiente");
+        break;
+    case (nota >= 4 && nota <= 6):
+        console.log("Regular");
+        break;
+    case (nota >= 7 && nota <= 8):
+        console.log("Bom");
+        break;
+    case ( nota >= 9):
+        console.log("Excelente");
+        break;
+}
+
+//5
+
+let semana = 2;
+
+switch(true) {
+    case (semana === 1):
+    console.log("Domingo");
+    break;
+    case (semana === 2):
+    console.log("Segunda");
+    break;
+    case (semana === 3): 
+    console.log("Terça");
+    break;
+    case (semana === 4): 
+    console.log("Quarta-feira");
+    break;
+    case (semana === 5): 
+    console.log("Quinta-feira");
+    break;
+    case (semana === 6): 
+    console.log("Sexta-feira");
+    break;
+    case (semana === 7): 
+    console.log("Sabado");
+    break;
+}
+
+//6
+
+let evento = "Festa junina" 
+switch (evento) {
+    case "Festa junina" :
+    console.log ('A Festa Junina é uma celebração tradicional brasileira, realizada em junho, com danças típicas como quadrilha, comidas regionais como canjica e pamonha, e roupas caipiras. A festividade é uma homenagem aos santos populares São João, São Pedro e Santo Antônio.');
+break;
+}
+
+//7
+
+let cal = 1;
+switch (cal) {
+    case cal === 1:
+        console.log("Janeiro");
+        break;
+    case (cal === 2):
+        console.log("Fevereiro");
+        break;
+    case (cal === 3):
+        console.log("Março");
+        break;
+    case (cal === 4):
+        console.log("Abril");
+        break;
+    case (cal === 6):
+        console.log("Junho");
+        break;
+    case (cal === 7):
+        console.log("Julho");
+        break;
+    case (cal === 8):
+        console.log("Agosto");
+        break;
+    case (cal === 9):
+        console.log("Setembro");
+        break;
+    case (cal === 10):
+        console.log("Outubro");
+        break;
+    case (cal === 11):
+        console.log("Novembro");
+        break;
+    case (cal === 12):
+        console.log("Dezembro");
+        break;
+
+    default:
+        console.log("nenhuma das alternativas")
+
+}
+
+
